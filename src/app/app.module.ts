@@ -14,6 +14,7 @@ import { FlightViewComponent } from './pages/flight-view/flight-view.component';
 import { FlightBookingComponent } from './pages/flight-booking/flight-booking.component';
 import { AdminDashboardComponent } from './pages/admin-dashboard/admin-dashboard.component';
 import {MatSelectModule} from '@angular/material/select';
+import { HomeComponent } from './pages/home/home.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import {MatSelectModule} from '@angular/material/select';
     FooterComponent,
     FlightViewComponent,
     FlightBookingComponent,
-    AdminDashboardComponent
+    AdminDashboardComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

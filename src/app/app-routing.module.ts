@@ -5,6 +5,7 @@ import { SignupComponent } from './pages/signup/signup.component';
 import { CustomerDashboardComponent } from './pages/customer-dashboard/customer-dashboard.component';
 import { FlightBookingComponent } from './pages/flight-booking/flight-booking.component';
 import { FlightViewComponent } from './pages/flight-view/flight-view.component';
+import { AdminDashboardComponent } from './pages/admin-dashboard/admin-dashboard.component';
 
 
 const routes: Routes = [{
@@ -16,16 +17,20 @@ const routes: Routes = [{
   component:SignupComponent,
   pathMatch:"full"
 },{
-  path:"cdashboard",
+  path:"custDashboard",
   component:CustomerDashboardComponent,
   pathMatch:"full"
 },{
-  path:"cbooking",
+  path:"custBooking",
   component:FlightBookingComponent,
   pathMatch:"full"
 },{
-  path:"cview",
+  path:"custView",
   component:FlightViewComponent,
+  pathMatch:"full"
+},{
+  path:"adminDashboard",
+  component:AdminDashboardComponent,
   pathMatch:"full"
 }];
 
